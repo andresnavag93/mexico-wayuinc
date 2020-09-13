@@ -1,0 +1,14 @@
+/* 6.3 Footer ======================================================= */
+
+.site-footer {
+  background-color: $wayu-dark-blue !important;
+  font-size: 0.9em;
+
+  h4 {
+    margin-bottom: $padding-default / 4;
+  }
+
+  .logo {
+    max-height: 56px;
+  }
+}

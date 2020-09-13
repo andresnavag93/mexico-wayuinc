@@ -1,0 +1,202 @@
+.alter3-features {
+  h1 {
+    font-size: 5rem;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+  }
+
+  .tribu {
+    position: relative;
+    height: 500px !important;
+
+    &-items {
+      position: absolute;
+    }
+    .choza1 {
+      left: 0;
+      top: 0;
+      z-index: -1;
+    }
+
+    .choza2 {
+      right: -40px;
+      top: 90px;
+      z-index: -2;
+    }
+
+    .wifi-09 {
+      left: 0;
+      right: 0;
+      margin: auto;
+      opacity: 0.5;
+      //right: 30px;
+      top: -60px;
+      z-index: -2;
+    }
+
+    .wifi-10 {
+      left: 0;
+      right: 0;
+      margin: auto;
+      //right: 34px;
+      top: -59px;
+      z-index: -2;
+      -o-animation: wifianimation 1.5s infinite;
+      -moz-animation: wifianimation 1.5s infinite;
+      -webkit-animation: wifianimation 1.5s infinite;
+      animation: wifianimation 1.5s infinite;
+      -o-animation-delay: 800ms;
+      -moz-animation-delay: 800ms;
+      -webkit-animation-delay: 800ms;
+      animation-delay: 800ms;
+    }
+
+    .wifi-11 {
+      left: 0;
+      right: 0;
+      margin: auto;
+      //right: 55px;
+      top: -25px;
+      z-index: -2;
+      -o-animation: wifianimation 1.5s infinite;
+      -moz-animation: wifianimation 1.5s infinite;
+      -webkit-animation: wifianimation 1.5s infinite;
+      animation: wifianimation 1.5s infinite;
+
+      -o-animation-delay: 400ms;
+      -moz-animation-delay: 400ms;
+      -webkit-animation-delay: 400ms;
+      animation-delay: 400ms;
+    }
+
+    .wifi-12 {
+      left: 0;
+      right: 0;
+      margin: auto;
+      //right: 77px;
+      top: 10px;
+      z-index: -2;
+      -o-animation: wifianimation 1.5s infinite;
+      -moz-animation: wifianimation 1.5s infinite;
+      -webkit-animation: wifianimation 1.5s infinite;
+      animation: wifianimation 1.5s infinite;
+
+      -o-animation-delay: 200ms;
+      -moz-animation-delay: 200ms;
+      -webkit-animation-delay: 200ms;
+      animation-delay: 200ms;
+    }
+
+    .wifi-13 {
+      left: 0;
+      right: 0;
+      margin: auto;
+      //right: 108px;
+      top: 48px;
+      z-index: -2;
+      -o-animation: wifianimation 1.5s infinite;
+      -moz-animation: wifianimation 1.5s infinite;
+      -webkit-animation: wifianimation 1.5s infinite;
+      animation: wifianimation 1.5s infinite;
+
+      -o-animation-delay: none;
+      -moz-animation-delay: none;
+      -webkit-animation-delay: none;
+      animation-delay: none;
+    }
+
+    @-o-keyframes wifianimation {
+      0% {
+        opacity: 0.4;
+      }
+      5% {
+        opactiy: 1;
+      }
+      6% {
+        opactiy: 0.1;
+      }
+      100% {
+        opactiy: 0.1;
+      }
+    }
+    @-moz-keyframes wifianimation {
+      0% {
+        opacity: 0.4;
+      }
+      5% {
+        opactiy: 1;
+      }
+      6% {
+        opactiy: 0.1;
+      }
+      100% {
+        opactiy: 0.1;
+      }
+    }
+    @-webkit-keyframes wifianimation {
+      0% {
+        opacity: 0.4;
+      }
+      5% {
+        opactiy: 1;
+      }
+      6% {
+        opactiy: 0.1;
+      }
+      100% {
+        opactiy: 0.1;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  h1 {
+    font-size: 2rem !important;
+  }
+
+  .text-control {
+    font-size: 2rem !important;
+  }
+
+  .tribu-items.choza1 {
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 3rem !important;
+  }
+
+  .text-control {
+    font-size: 2rem !important;
+  }
+  .custom-absolute {
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 4rem !important;
+  }
+
+  .custom-absolute {
+    height: 100%;
+  }
+  .text-control {
+    font-size: 3rem !important;
+  }
+
+  .tribu-items.choza1 {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+}

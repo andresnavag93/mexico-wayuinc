@@ -1,0 +1,76 @@
+{
+  "name": "wayu-mx-landing-page",
+  "version": "1.0.0",
+  "description": "Wayu MX Landing version",
+  "main": "index.js",
+  "keywords": [
+    "react",
+    "reactjs",
+    "laapp",
+    "laapp-react",
+    "design-react",
+    "react-kit",
+    "design-system-react"
+  ],
+  "author": "Wayu",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-sass": "node-sass src/assets/sass/laapp.scss src/assets/css/laapp.css",
+    "minify-sass": "node-sass src/assets/sass/laapp.scss src/assets/css/laapp.min.css --output-style compressed",
+    "map-sass": "node-sass src/assets/sass/laapp.scss src/assets/css/laapp.css --source-map true"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-brands-svg-icons": "^5.9.0",
+    "@fortawesome/free-regular-svg-icons": "^5.9.0",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "angled-edges": "^2.0.0",
+    "bootstrap": "^4.3.1",
+    "classnames": "2.2.6",
+    "jquery": "^3.4.1",
+    "mdbreact": "^4.19.1",
+    "modal-video": "^2.4.2",
+    "moment": "2.24.0",
+    "node-sass": "^4.14.1",
+    "odometer": "^0.4.8",
+    "pe7-icon": "^1.0.4",
+    "popper.js": "^1.15.0",
+    "react": "16.8.6",
+    "react-datetime": "2.16.3",
+    "react-dom": "16.8.6",
+    "react-gtm-module": "^2.0.8",
+    "react-id-swiper": "^2.1.2",
+    "react-iframe": "^1.8.0",
+    "react-modal-video": "^1.2.2",
+    "react-multi-carousel": "^2.2.5",
+    "react-odometerjs": "^2.1.1",
+    "react-reveal": "^1.2.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3",
+    "react-scroll": "^1.7.12",
+    "react-tilt": "^0.1.4",
+    "react-youtube": "^7.9.0",
+    "reactstrap": "8.0.0",
+    "swiper": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/react": "16.8.16",
+    "typescript": "3.4.5"
+  }
+}

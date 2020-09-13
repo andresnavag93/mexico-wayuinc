@@ -1,0 +1,43 @@
+/*-------------------------------------*\
+    WAYUCOLORS
+\*-------------------------------------*/
+
+// Wayu Logo Colors
+$wayu-red: #ed3151;
+$wayu-yellow: #f8a046;
+$wayu-light-blue: #5bc4c7;
+$wayu-dark-blue: #2e2c42;
+
+//Wayu Colors With Opacity
+
+$wayu-red-opacity-15: rgba(237, 49, 81, 0.15);
+$wayu-yellow-opacity-15: rgba(248, 160, 70, 0.15);
+$wayu-light-blue-opacity-15: rgba(91, 196, 199, 0.15);
+$wayu-dark-blue-opacity-15: rgba(46, 44, 66, 0.15);
+
+//Wayu Colors Hover
+
+$wayu-red-hover: darken($wayu-red, 20);
+$wayu-yellow-hover: darken($wayu-yellow, 20);
+$wayu-light-blue-hover: darken($wayu-light-blue, 20);
+$wayu-dark-blue-hover: darken($wayu-dark-blue, 20);
+
+// Principal colors
+$wayu-principal-1: #efac41;
+$wayu-principal-2: #f28d4d;
+$wayu-principal-3: #e06939;
+
+$wayu-principal-2-1: #efac41;
+$wayu-principal-2-2: #e06939;
+$wayu-principal-2-3: #dd495b;
+
+// Secundary colors
+$wayu-secundary-1: #73c1c4;
+$wayu-secundary-2: #317889;
+$wayu-secundary-3: #334b62;
+
+$wayu-secundary-2-1: #565970;
+$wayu-secundary-2-2: #2e3142;
+$wayu-secundary-2-3: #1c1723;
+
+//Principal Colors

@@ -1,0 +1,266 @@
+.faqs-dd {
+  h1 {
+    font-size: 5rem;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+  }
+
+  .head-line-2 {
+    display: block;
+    font-size: 1.5rem;
+
+    @include media-breakpoint-up($grid-float-breakpoint) {
+      display: inline;
+    }
+  }
+
+  .card {
+    border: 0;
+  }
+
+  .card-header {
+    border-radius: $faq-header-border-radius;
+    background-color: $faq-header-bg-color;
+    border-bottom: 0;
+
+    div {
+      background-color: red;
+      padding: 0 !important;
+    }
+  }
+
+  .card-title {
+    margin-bottom: 0;
+    color: $faq-title-color;
+    transition: color 0.3s ease-in;
+
+    &.collapsed {
+      color: $faq-title-collapsed-color;
+    }
+  }
+
+  .card-body {
+    padding-left: 2rem;
+  }
+
+  .icon {
+    left: 0;
+    top: 30%;
+    font-size: 26rem;
+    color: $faqs--icon-color;
+    line-height: 1;
+
+    i {
+      transform: translate3d(-25%, 0, 0);
+    }
+  }
+}
+
+// Modify by Andres
+.bg-blue {
+  background-color: rgba(247, 213, 165, 0.425) !important;
+  @include angled-edge("outside top", "upper left", rgba(247, 213, 165, 0.425), 310);
+}
+
+.bg-blue2 {
+  background-color: white !important;
+}
+
+#testimonios {
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.card-header2 {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background: radial-gradient(#e06939 5%, #efac41);
+  opacity: 1;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.h-custom-30 {
+  height: 5rem;
+}
+
+.img-l-img-50 {
+  width: 200px;
+  height: 200px;
+  //@at-rootborder: 6px solid $wayu-yellow-opacity-15;
+}
+
+.rounded-circle {
+  background-color: $wayu-yellow-opacity-15 !important;
+}
+
+.border-radius-50 {
+  border-radius: 53%;
+}
+
+@media (min-width: 768px) {
+  .stay-tunned .form-wrapper {
+    width: 75% !important;
+  }
+}
+
+.pt-testimonials-4 {
+  padding-top: 4rem !important;
+}
+
+.Modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 5;
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1031;
+}
+
+.Modal__container {
+  position: relative;
+  top: 11rem;
+  background-color: rgb(254, 241, 228) !important;
+  padding: 0.5rem;
+}
+
+.Modal__close-button {
+  position: absolute;
+  top: 0.5rem;
+  left: 1rem;
+  color: white;
+  font-weight: 900 !important;
+  font-size: 1rem;
+  border: 0;
+  background-color: $wayu-yellow !important;
+  border-radius: 50%;
+  padding: 0.5rem 1rem;
+}
+
+.contact-form-container {
+  width: 100%;
+  position: relative;
+  margin-top: 3rem;
+  height: 100px;
+  color: white;
+  text-transform: uppercase;
+  background-color: $wayu-red !important;
+
+  .paquete-form {
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    top: 10px;
+    font-size: 5rem !important;
+    font-weight: 700 !important;
+    opacity: 0.3;
+    z-index: 1031;
+  }
+
+  .nombre-paquete-form {
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    top: 25px;
+    font-size: 3rem !important;
+    font-weight: 900 !important;
+    z-index: 1031;
+  }
+
+  @media only screen and (min-width: 320px) {
+    .contact-form-container {
+      height: 50px !important;
+    }
+    .paquete-form {
+      top: 15px;
+      font-size: 2.3rem !important;
+    }
+    .nombre-paquete-form {
+      top: 15px;
+      font-size: 1.5rem !important;
+    }
+  }
+
+  @media only screen and (min-width: 728px) {
+    .paquete-form {
+      top: 10px;
+      font-size: 3.3rem !important;
+    }
+    .nombre-paquete-form {
+      top: 15px;
+      font-size: 2.3rem !important;
+    }
+  }
+}
+
+.paquete-items-form {
+  position: absolute;
+  right: 0;
+}
+
+.pluma1-form {
+  transform: rotate(190deg);
+  right: -20px;
+  top: -150px;
+  z-index: 0;
+}
+
+.pluma2-form {
+  transform: rotate(120deg);
+  right: -20px;
+  top: -90px;
+  z-index: 0;
+}
+
+.flecha1-form {
+  opacity: 0.3;
+  margin-right: auto;
+  margin-left: auto;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+  z-index: 1029;
+}
+
+.btn-contact-form-color {
+  background-color: $wayu-red !important;
+  border: $wayu-red !important;
+}
+
+.btn-contact-form-color:hover {
+  background-color: $wayu-red !important;
+  border: $wayu-red !important;
+}
+
+.required-field:after {
+  content: " *";
+  color: red;
+}
+
+@media only screen and (min-width: 320px) {
+  .paquete-form {
+    font-size: 2rem !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1200px) {
+}

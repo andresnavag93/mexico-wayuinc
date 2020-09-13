@@ -1,0 +1,91 @@
+.alter2-header {
+  h1 {
+    font-size: 3rem;
+    font-weight: 900 !important;
+    text-transform: uppercase;
+  }
+
+  .head-line-2 {
+    display: block;
+    font-size: 1.3rem;
+
+    @include media-breakpoint-up($grid-float-breakpoint) {
+      display: inline;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .img-size-resposive2 {
+      width: 325px;
+    }
+    .head-line-2 {
+      font-size: 1.2rem;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    .img-size-resposive2 {
+      width: 400px;
+    }
+    .head-line-2 {
+      font-size: 2rem;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
+}
+
+#inicio {
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+//Fixed Formulay and Footer Colors
+.contact-display-fixed {
+  position: fixed;
+  border-radius: 50%;
+  z-index: 1;
+  cursor: pointer;
+  background-color: $wayu-red;
+  box-shadow: 5px 5px 20px gray;
+
+  &:hover {
+    box-shadow: 5px 5px 30px gray;
+  }
+
+  @media screen and (min-width: 320px) {
+    width: 60px;
+    right: 15px;
+    bottom: 80px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 75px;
+    right: 25px;
+    bottom: 100px;
+  }
+
+  @media screen and (min-width: 992px) {
+    width: 100px;
+    right: 50px;
+    bottom: 100px;
+  }
+}
+
+.hr-yellow {
+  background-color: $wayu-yellow;
+  height: 40px !important;
+}
+.hr-blue {
+  background-color: $wayu-light-blue;
+  height: 10px !important;
+}
+
+.hr-yellow2 {
+  background-color: $wayu-yellow;
+  height: 10px !important;
+}

@@ -1,0 +1,11 @@
+.stay-tunned {
+  .form-wrapper {
+    @include media-breakpoint-up($grid-float-breakpoint) {
+      width: 50%;
+    }
+  }
+}
+
+.bg-blue-upside {
+  background-color: $wayu-principal-3;
+}
