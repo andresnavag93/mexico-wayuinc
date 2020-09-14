@@ -1,7 +1,7 @@
 {
   "name": "wayu-mx-landing-page",
   "version": "1.0.0",
-  "homepage": "https://andresnavag93.github.io/",
+  "homepage": "http://andresnavag93.github.io/mexico-wayuinc",
   "description": "Wayu MX Landing version",
   "main": "index.js",
   "keywords": [
@@ -22,7 +22,9 @@
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
     "compile-sass": "node-sass src/assets/sass/laapp.scss src/assets/css/laapp.css",
     "minify-sass": "node-sass src/assets/sass/laapp.scss src/assets/css/laapp.min.css --output-style compressed",
-    "map-sass": "node-sass src/assets/sass/laapp.scss src/assets/css/laapp.css --source-map true"
+    "map-sass": "node-sass src/assets/sass/laapp.scss src/assets/css/laapp.css --source-map true",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -72,6 +74,7 @@
   },
   "devDependencies": {
     "@types/react": "16.8.16",
+    "gh-pages": "^3.1.0",
     "typescript": "3.4.5"
   }
 }
