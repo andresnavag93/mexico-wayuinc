@@ -4,11 +4,14 @@
 
 ### Url address
 
-- Link Url: [http://andresnavag93.github.io/mexico-wayuinc](http://andresnavag93.github.io/mexico-wayuinc)
+- Link Url: [https://andresnavag93.github.io/mexico-wayuinc](http://andresnavag93.github.io/mexico-wayuinc)
 
 ### Technologies / Tools
 
-- React.Js
+- JavaScript,
+- React.js
+- HTML
+- CSS
 
 ### System requirements
 
